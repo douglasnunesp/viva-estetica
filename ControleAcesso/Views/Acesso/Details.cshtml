@@ -1,0 +1,64 @@
+﻿@model Viva.Estetica.Site.Models.ClienteModels
+
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>ACESSO</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Login)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Login)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Password)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Password)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.SobreNome)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.SobreNome)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.NumeroCelular)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NumeroCelular)
+            </dd>
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+        @*@Html.ActionLink("Back to List", "Index")*@
+    </p>
+</body>
+</html>

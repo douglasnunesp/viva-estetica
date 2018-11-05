@@ -1,0 +1,42 @@
+﻿@model  Viva.Estetica.Site.Models.AgendaModels
+
+@{
+    ViewBag.Title = "Remove";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Remove</h2>
+
+<div>
+    <h4>Agenda</h4>
+    <hr />
+    <p style="color:red;">@ViewBag.mensagem</p>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DataAgendamento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataAgendamento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Servico.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Servico.Nome)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("Remove", "Agenda", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    }
+</div>

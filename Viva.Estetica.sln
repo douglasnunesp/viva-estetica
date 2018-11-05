@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viva.Estetica.Domain", "Viva.Estetica.Domain\Viva.Estetica.Domain.csproj", "{76A4CB3D-BD0C-4D0D-8978-DBDC71835FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viva.Estetica.Infrastructure", "Viva.Estetica.Infrastructure\Viva.Estetica.Infrastructure.csproj", "{2C6658C1-C0C9-4A8D-A052-884DC9BC2A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viva.Estetica.Application", "Viva.Estetica.Application\Viva.Estetica.Application.csproj", "{8EB6BF09-CE7A-4292-AF22-684B346669DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viva.Estetica.Site", "ControleAcesso\Viva.Estetica.Site.csproj", "{7E9ACFA1-45C2-4655-929E-E26F9E348340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76A4CB3D-BD0C-4D0D-8978-DBDC71835FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A4CB3D-BD0C-4D0D-8978-DBDC71835FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A4CB3D-BD0C-4D0D-8978-DBDC71835FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A4CB3D-BD0C-4D0D-8978-DBDC71835FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6658C1-C0C9-4A8D-A052-884DC9BC2A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6658C1-C0C9-4A8D-A052-884DC9BC2A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6658C1-C0C9-4A8D-A052-884DC9BC2A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6658C1-C0C9-4A8D-A052-884DC9BC2A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB6BF09-CE7A-4292-AF22-684B346669DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB6BF09-CE7A-4292-AF22-684B346669DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB6BF09-CE7A-4292-AF22-684B346669DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB6BF09-CE7A-4292-AF22-684B346669DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9ACFA1-45C2-4655-929E-E26F9E348340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9ACFA1-45C2-4655-929E-E26F9E348340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9ACFA1-45C2-4655-929E-E26F9E348340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9ACFA1-45C2-4655-929E-E26F9E348340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99799F97-54FA-4F65-ACC3-B4D5DA9B152D}
+	EndGlobalSection
+EndGlobal

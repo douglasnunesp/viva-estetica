@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Viva.Estetica.Site.AgendaModels>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DataAgendamento)
+        </th>
+        <th>
+            @Html.DisplayName("Serviço")
+        </th>
+    </tr>
+
+@if (Model != null)
+{
+    foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataAgendamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Servico.Nome)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+}
+else
+{
+    <tr>
+        <td colspan="2">Não há agendamentos</td>
+    </tr>
+}
+
+</table>
